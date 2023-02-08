@@ -1,0 +1,9 @@
+buildscript {
+    configurations.classpath {
+        resolutionStrategy.activateDependencyLocking()
+    }
+}
+
+plugins {
+    id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
